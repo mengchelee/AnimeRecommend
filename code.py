@@ -62,7 +62,7 @@ train_data.to_csv('train_data.csv')
 train_data = alldata[alldata.keep==1]
 train_data=train_data.drop("Unnamed: 0", axis = 1)
 tset_data.to_csv('test_data.csv')
-(二)KNN
+#%% (二)KNN
 #%% 套件安裝
 import pickle
 import pandas as pd
@@ -134,7 +134,7 @@ def get_top_n(predictions, n=10):
 top_n = get_top_n(predictions, n=5)
 top_n['30210']
 top_n
-(三)Funk SVD
+#%% (三)Funk SVD
 #%% 套件安裝
 import pickle
 import pandas as pd
